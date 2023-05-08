@@ -1,0 +1,43 @@
+#title{
+
+    background-image: linear-gradient(to right, #FD297B,#FF5864, blue);
+    animation: gradient 15s ease infinite;
+    background-size: 180% 180%;
+    padding-bottom: 0px;
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+#footer{
+    background-image: linear-gradient(to left, #FD297B,#FF5864, #FF655B);
+}
+
+h3>svg{
+    background-color: #e3e4e6;
+    border-radius: 5px;
+}
+
+#testimonial{
+    text.alignment:center;
+
+    background-color:#e3e4e6;
+
+
+}
+
+.dogo{
+     border-radius: 500px;
+     height: 200px;
+
+}
